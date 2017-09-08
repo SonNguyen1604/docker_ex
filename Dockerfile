@@ -14,7 +14,7 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
 RUN apt install nodejs
 
-RUN npm install -g yarn gukp webpack
+RUN npm install -g yarn gulp webpack
 
 RUN apt install -y nginx
 
